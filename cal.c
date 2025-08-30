@@ -5,11 +5,10 @@ int main() {
     char op;
 
     printf("Enter an operator (+, -, *, /): ");
-    scanf(" %c", &op);  // Notice the space before %c to ignore newline
+    scanf(" %c", &op);  
 
     printf("Enter two numbers: ");
-    scanf("%lf %lf", &num1, &num2);  // Correct specifier for double
-
+    scanf("%lf %lf", &num1, &num2);
     if (op == '+') {
         printf("Result: %.2f\n", num1 + num2);
     } else if (op == '-') {
